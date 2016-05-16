@@ -2,9 +2,11 @@
 var bgTag = $('#bg');
 
 var bgsrc = [
-	"http://img.chinatimes.com/newsphoto/2014-12-30/656/20141230003739.jpg",
-	"http://img.chinatimes.com/newsphoto/2014-12-29/656/20141229004769.jpg",
-	"https://uploads.mimoshow.com.au/wp-content/uploads/2013/12/162.jpg"
+	"../../res/fwd/kungfu2.jpg",
+	"../../res/fwd/kungfu3.jpg",
+	"../../res/fwd/kungfu4.jpg",
+	// "../../res/fwd/kungfu5.jpg",
+	"../../res/fwd/kungfu6.jpg"
 ];
 
 (function() {
@@ -21,7 +23,8 @@ var bgsrc = [
 		setTimeout(function() {
 			bgTag.attr('class', 'animated fadeIn');
 			bgTag.css({
-				'background': 'url(' + bgsrc[a%bgsrc.length] + ') center center',
+				'background': 'url(' + bgsrc[a%bgsrc.length] + ') top center',
+				'background-repeat': 'no-repeat',
 				'background-size': 'cover'
 			});
 		}, 2000 + a*3000);
