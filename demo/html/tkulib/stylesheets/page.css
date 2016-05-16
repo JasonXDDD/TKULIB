@@ -1,0 +1,26 @@
+/* line 3, ../sass/page.sass */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../sass/page.sass */
+.XD-block {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* line 13, ../sass/page.sass */
+.XD-item {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: yellow;
+}
+
+/* line 20, ../sass/page.sass */
+.XD-content {
+  display: none;
+}
