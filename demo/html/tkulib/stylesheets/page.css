@@ -23,9 +23,36 @@ html, body {
 /* line 20, ../sass/page.sass */
 .XD-content {
   display: none;
+  position: absolute;
+  padding: 1em;
 }
 
-/* line 23, ../sass/page.sass */
+/* line 26, ../sass/page.sass */
+.XD-item-btn {
+  display: block;
+  position: absolute;
+  bottom: 25%;
+  width: 20%;
+  padding: 0.2em 2em;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+/* line 38, ../sass/page.sass */
+.XD-mask {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.5;
+  display: none;
+}
+
+/* line 47, ../sass/page.sass */
 .XD-info {
   height: 150px;
   width: 100%;

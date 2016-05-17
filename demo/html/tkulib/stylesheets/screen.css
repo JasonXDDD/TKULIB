@@ -67,39 +67,130 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 18, ../sass/screen.sass */
+/* line 28, ../sass/screen.sass */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 23, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 #bg {
   background-color: yellow;
   height: 100%;
   background-size: cover;
 }
 
-/* line 29, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 .show {
   width: 100px;
   height: 50px;
   background-color: purple;
 }
 
-/* line 34, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 .XD-topic {
   width: 100%;
   height: 100%;
+  display: none;
+  z-index: -10;
 }
 
-/* line 38, ../sass/screen.sass */
-.XD-topic-item {
-  left: 100px;
-  top: 100px;
-  width: 300px;
-  height: 30px;
+/* line 55, ../sass/screen.sass */
+.XD-topic-item1 {
+  left: 30%;
+  top: 38%;
   display: block;
   position: fixed;
+  font-family: "arial";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0.3em 1em;
+  text-decoration: none;
   background-color: red;
+}
+/* line 23, ../sass/screen.sass */
+.XD-topic-item1:hover {
+  background-color: red;
+  color: white;
+}
+
+/* line 60, ../sass/screen.sass */
+.XD-topic-item2 {
+  left: 45%;
+  top: 26%;
+  display: block;
+  position: fixed;
+  font-family: "arial";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  background-color: purple;
+}
+/* line 23, ../sass/screen.sass */
+.XD-topic-item2:hover {
+  background-color: red;
+  color: white;
+}
+
+/* line 65, ../sass/screen.sass */
+.XD-topic-item3 {
+  left: 65%;
+  top: 37%;
+  display: block;
+  position: fixed;
+  font-family: "arial";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  background-color: purple;
+}
+/* line 23, ../sass/screen.sass */
+.XD-topic-item3:hover {
+  background-color: red;
+  color: white;
+}
+
+/* line 70, ../sass/screen.sass */
+.XD-topic-item4 {
+  left: 30%;
+  top: 58%;
+  display: block;
+  position: fixed;
+  font-family: "arial";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  background-color: purple;
+}
+/* line 23, ../sass/screen.sass */
+.XD-topic-item4:hover {
+  background-color: red;
+  color: white;
+}
+
+/* line 75, ../sass/screen.sass */
+.XD-topic-item5 {
+  left: 57%;
+  top: 61%;
+  display: block;
+  position: fixed;
+  font-family: "arial";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  background-color: purple;
+}
+/* line 23, ../sass/screen.sass */
+.XD-topic-item5:hover {
+  background-color: red;
+  color: white;
 }

@@ -5,14 +5,24 @@
 
 @import "compass/reset"
 
-=topic-show($left: 0px, $top: 0px, $width: 0px, $height: 0px)
+=topic-show($left: 0px, $top: 0px)
 	left: 		$left
 	top: 		$top
-	width: 		$width
-	height: 	$height
+	// margin-left: -($width/2)
+	// margin-top: -($height/2)
 	display: block
 	position: fixed
 
+=topic-link()
+	font-family: 'arial'
+	font-size: 30px
+	color: white
+	text-align: center
+	padding: .3em 1em
+	text-decoration: none
+	&:hover
+		background-color: red
+		color: white
 
 
 html,body
@@ -34,7 +44,36 @@ html,body
 .XD-topic
 	width: 100%
 	height: 100%
+	// background: url(../img/main/topic.jpg) center center
+	// -webkit-background-size: cover
+	// -moz-background-size: cover
+	// background-size: cover
+	display: none
+	z-index: -10
+	
 
-.XD-topic-item
-	+topic-show(100px, 100px, 300px, 30px)
+.XD-topic-item1
+	+topic-show(30%, 38%)
+	+topic-link()
 	background-color: red
+
+.XD-topic-item2
+	+topic-show(45%, 26%)
+	+topic-link()
+	background-color: purple
+
+.XD-topic-item3
+	+topic-show(65%, 37%)
+	+topic-link()
+	background-color: purple
+
+.XD-topic-item4
+	+topic-show(30%, 58%)
+	+topic-link()
+	background-color: purple
+
+.XD-topic-item5
+	+topic-show(57%, 61%)
+	+topic-link()
+	background-color: purple
+

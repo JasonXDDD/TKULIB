@@ -1,0 +1,54 @@
+/* line 2, ../sass/show.sass */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+/* line 10, ../sass/show.sass */
+#bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background-color: yellow;
+}
+
+/* line 18, ../sass/show.sass */
+.item {
+  padding: 10% 0;
+  margin: 0 5%;
+}
+/* line 21, ../sass/show.sass */
+.item h2 {
+  text-align: center;
+  color: white;
+}
+/* line 24, ../sass/show.sass */
+.item img {
+  display: block;
+  width: 100%;
+}
+
+/* line 28, ../sass/show.sass */
+#show {
+  margin: 0 auto;
+  top: 45%;
+}
+
+/* line 32, ../sass/show.sass */
+.XD-show-content {
+  margin: 0 10%;
+  height: 80%;
+}
+
+/* line 37, ../sass/show.sass */
+.XD-title {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding: 3% 0;
+}
