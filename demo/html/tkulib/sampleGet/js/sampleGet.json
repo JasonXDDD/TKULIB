@@ -1,0 +1,30 @@
+[{
+        "type": "linebar"
+    },
+
+    {
+        "type": "title",
+        "title": "title"
+    },
+
+    {
+        "type": "subtitle",
+        "subtitle": "Small Subtitle"
+    },
+
+    {
+        "type": "content",
+        "content": "This is content"
+    },
+
+    {
+        "type": "image",
+        "src": "../img/fwd/01-1.JPG"
+    },
+
+    {
+        "type": "background",
+        "src": "../img/fwd/01-1.JPG"
+    }
+
+]
